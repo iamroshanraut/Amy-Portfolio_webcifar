@@ -213,3 +213,172 @@ header .container .right img{
     
 }
 
+
+/* Header section ends here  */
+
+
+/* service section starts here  */
+
+.services{
+    width: 100%;
+    padding: 10rem 0;
+}
+
+.services .container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.services .container h1{
+
+    text-align: center;
+    font-size: 8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10rem;
+    position: relative;
+}
+
+.services .container h1::before{
+    content: "SERVICES";
+    position: absolute;
+    left: 2%;
+    top: -19%;
+    width: 100%; 
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    letter-spacing: 0.2rem;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #5a24ed2f;
+    z-index: -1;
+}
+
+.services .container .master_box{
+    display: flex;
+}
+
+.services .container .box{
+    flex: 3;
+    padding: 1.5rem 2rem;
+    border-radius: 2rem;
+    transition: 0.3s ease-in-out background-color;
+}
+
+.master_box .box1:hover{
+    background-color:rgba(96, 150, 231, 0.37) ;
+}
+
+.master_box .box2:hover{
+    background-color:rgba(93, 216, 149, 0.493) ;
+}
+
+.master_box .box3:hover{
+    background-color:#764ee280;
+}
+
+.services .container .box h3{
+    font-size: 1.9rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.services .container .box p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #48464b;
+    line-height: 2.5rem;
+}
+
+.master_box .box .cricle{
+    font-size: 2rem;
+    display: inline-block;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem
+}
+
+.master_box .box .cricle_one{
+    background-color:rgb(7 106 255 / 37%) ;
+}
+
+.master_box .box .cricle_two{
+    background-color: rgba(0, 255, 115, 0.493);
+}
+
+.master_box .box .cricle_three{
+    background-color: #4705fc80;
+}
+
+
+@media only screen and (max-width:750px){
+
+    .services{
+        margin-top: 3rem;
+    }
+
+    .services .container{
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .services .container h1{
+        margin-bottom: 4rem;
+    }
+
+    .master_box .box1{
+        background-color:rgba(96, 150, 231, 0.37) ;
+        margin-bottom: 2rem;
+    }
+
+    .master_box .box2{
+        background-color:rgba(93, 216, 149, 0.493);
+        margin-bottom: 2rem;
+    }
+
+    .master_box .box3{
+        background-color:#764ee280 ;
+    }
+
+    .master_box{
+        display: flex;
+        flex-direction: column ;
+        text-align: center;
+    }
+
+    .master_box .box .cricle{
+       margin: 0 auto;
+       font-size: 3rem;
+       width: 80px;
+       height: 80px;
+       margin-bottom: 2rem;
+    }
+
+    .master_box .box h3{
+        font-size: 3rem !important;
+    }
+
+    .services .container h1{
+        font-size: 6.5rem;
+    }
+}
+
+@media only screen and (max-width:475px){
+    .services .container{
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .master_box .box p{
+        font-size: 2.3rem  !important;
+    }
+
+    .master_box .box{
+        padding: 3rem 1rem !important;
+    }
+}
