@@ -382,3 +382,149 @@ header .container .right img{
         padding: 3rem 1rem !important;
     }
 }
+
+/* service section ends here  */
+
+
+/* Testimonial section starts here  */
+
+.testimonial{
+    width: 100%;
+    padding: 10rem 0;
+}
+
+.testimonial .container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 10rem 0;
+    text-align: center;
+    
+    
+}
+
+.testimonial .container h2{
+    font-size: 7rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 8rem;
+    position: relative;
+}
+
+.testimonial .container h2::before{
+    content: "TESTIMONIAL";
+    position: absolute;
+    left: 2%;
+    top: -19%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    letter-spacing: 0.2rem;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #5a24ed2f;
+    z-index: -1;
+}
+
+.master_testi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.testi{
+    flex: 3;
+    text-align: center;
+    position: relative;
+    padding: 1rem 2.2rem;
+
+}
+
+.testitwo{
+    flex: 4;
+}
+
+.testi .paratesti{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #48464b;
+}
+
+.testi h3{
+    font-size: 2.4rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.testi i{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #5924ed;
+}
+
+.testi .testides{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #48464b;
+    margin-bottom: 1rem;
+}
+
+.master_testi .testi::after {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 45px;
+	z-index: -1;
+	box-shadow: 0px 0px 20px 0px #4705fc1f;
+}
+
+.testione::after {
+	transform: skew(2deg, 9deg);
+	height: 95%;
+	border-radius: 52px 30px 59px 60px;
+}
+
+.testitwo::after {
+	transform: skew(350deg, 354deg);
+	border-radius: 26px 67px 35px 67px;
+	height: 100%;
+}
+
+.testithree::after {
+	transform: skew(2deg, 9deg);
+	height: 95%;
+	border-radius: 52px 30px 59px 60px;
+}
+
+
+.testiimg{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.testiimg img{
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width:950px){
+    .master_testi{
+        display: flex;
+        flex-direction: column;
+        gap: 10rem;
+    }
+
+
+}
+
+@media only screen and (max-width:400px){
+    .testimonial .container h2{
+        font-size: 5rem;
+    }
+}
