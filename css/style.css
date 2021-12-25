@@ -531,3 +531,100 @@ header .container .right img{
 
 
 /* Testimonial Done Here  */
+
+/* stats starts  here  */
+
+.stats{
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 10rem 0;
+    text-align: center;
+}
+
+.container .statss{
+    font-size: 8rem;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 6.5rem;
+    position: relative;
+}
+
+.container .statss::after{
+    content: "STATS";
+    position: absolute;
+    left: 2%;
+    top: -19%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    letter-spacing: 0.2rem;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #5a24ed2f;
+    z-index: -1;
+}
+
+.container .stats_items{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+     
+}
+
+.statsbox{
+    text-align: start;
+    padding: 2rem 1.5rem;
+}
+
+.statsbox h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 8rem;
+}
+
+.statsbox h3{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.statsbox p{
+    font-size: 1.6rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+}
+
+.statsone{
+    background-color: rgba(255, 238, 0, 0.322);
+}
+
+.statstwo{
+    background-color: rgba(0, 255, 115, 0.329);
+}
+
+.statsthree{
+    background-color: #4705fc50;
+}
+
+
+@media only screen and (max-width:850px){
+    .stats_items{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width:475px){
+    .stats .container{
+        width: 95%;
+    }
+}
+
+/* stats starts here  */
