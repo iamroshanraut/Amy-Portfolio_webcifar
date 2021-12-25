@@ -628,3 +628,175 @@ header .container .right img{
 }
 
 /* stats starts here  */
+
+/* About Section Starts here  */
+
+
+.about{
+    width: 100%;
+}
+
+.about .container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 10rem 2rem;
+    text-align: center;
+}
+
+.about .container h2{
+    font-size: 8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 11rem;
+    position: relative;
+}
+
+.about .container h2::after{
+    content: "ABOUT";
+    position: absolute;
+    left: 2%;
+    top: -19%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    letter-spacing: 0.2rem;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #5a24ed2f;
+    z-index: -1;
+}
+
+.main_card_section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.main_card_section .left_card_section{
+    text-align: center;
+    flex: 4;
+}
+
+.left_card{
+    box-shadow: 0 0 20px #4705fc33;
+    padding: 3rem;
+    border-radius: 1.5rem;
+}   
+
+.left_card .card_img{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    
+}
+
+.left_card .card_img img{
+    object-fit: cover;
+    border-radius: 1rem;
+    
+}
+
+.left_card .card_desc{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #48464b;
+    margin-bottom: 2rem;
+}
+
+.left_card h3{
+    font-size: 2.1rem;
+    font-weight: 800;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.left_card .posi{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.main_card_section .right_card_section{
+    display: flex;
+    flex-direction: column;
+    flex: 9;
+    text-align: left !important;
+    
+}
+
+.right_card_section .intro{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #5924ed;
+    margin-bottom: 1.7rem;
+}
+
+.right_card_section h3{
+    font-size: 2.7rem;
+    font-weight: 1000;
+    margin-bottom: 2.5rem;
+}
+
+.right_card_section .desc{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #48464b;
+    margin-bottom: 2rem;
+}
+
+.right_card_section .button{
+    padding: 2rem 0;
+    display: flex;
+    gap: 2.5rem;
+}
+
+
+.right_card_section .button .resume{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #fff;
+    padding: 1.1rem 3rem;
+    background-color: #5924ed;
+    border-radius: 50px;
+}
+
+.right_card_section .button a{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #5924ed;
+    padding: 1.1rem 3rem;
+    border: 3px solid #5924ed;
+    border-radius: 50px;
+}
+
+@media only screen and (max-width:750px){
+    .about .container{
+        width: 90%;
+    }
+
+    .main_card_section{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .main_card_section .right_card_section {
+        align-items: center;
+        
+    }
+
+    .main_card_section .right_card_section .desc{
+        text-align: center;
+    }
+
+    .main_card_section .right_card_section .intro{
+        font-size: 3rem;
+    }
+    
+}
+
+
+/* about section ends here  */
