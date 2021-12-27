@@ -818,14 +818,14 @@ header .container .right img{
     text-align: center;
 }
 
-.project .container h2{
+.project .container .project_head{
     font-size: 8rem;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 11rem;
     position: relative;
 }
 
-.project .container h2::after{
+.project .container .project_head::after{
     content: "PROJECTS";
     position: absolute;
     left: 2%;
@@ -925,3 +925,54 @@ header .container .right img{
 .zaman .left{
     margin-left: -150px;
 }
+
+
+@media only screen and (max-width:750px){
+    .project .container{
+        width: 90%;
+    }
+
+    .realchat{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .realchat .left{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .realchat .right{
+        margin: 0;
+        padding: 4rem 3rem;
+        text-align: center;
+    }
+
+    .realchat .right h2{
+        font-size: 3.5rem;
+    }
+    
+    .realchat .right h3{
+        font-size: 2rem;
+    }
+
+    .realchat .right p{
+        font-size: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .zaman .left{
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width:315px){
+    .project .container .project_head{
+        font-size: 5rem;
+    }
+}
+
+
+/* Project section ends here  */
