@@ -976,3 +976,123 @@ header .container .right img{
 
 
 /* Project section ends here  */
+
+
+/* Footer section starts here  */
+
+footer{
+    background-color: #311580;
+    
+    color: #fff;
+    
+}
+
+footer .container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 10rem 0 5rem 0;
+}
+
+footer .container .footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    font-family: 'Montserrat';
+}
+
+footer .container .footer li{
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family: 'Roboto Mono', monospace;
+}
+
+footer .container .footer li a{
+    color: #fff;
+    width: 100%;
+    padding: 0.5rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+}
+
+footer .container .footer li a:hover{
+    background-color: #fff;
+    color: #311580;
+}
+
+footer .container .footer h2{
+    margin-bottom: 2rem;
+}
+
+.column-one{
+    flex: 3;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospac
+
+}
+
+.column-one img{
+    max-width: 100px;
+    margin-bottom: 2rem;
+}
+
+.column-two{
+    flex: 2;
+    text-align: left;
+    font-size: 1.3rem;
+    line-height: 3rem;
+}
+
+.column-two ul {
+    list-style-type: none;
+}
+
+.column-three{
+    flex: 2;
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.3rem;
+    line-height: 3rem;
+}
+
+.column-four{
+    flex: 1;
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.3rem;
+    line-height: 3rem;
+}
+
+.column-four ul {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-four ul li{
+    border-radius: 0.5rem;
+    min-width: 50px;
+    list-style-type: none;
+}
+
+@media only screen and (max-width:700px){
+
+    footer .container .footer {
+		flex-direction: column;
+	}
+	footer .container .footer .column-one,
+	footer .container .footer .column-two,
+	footer .container .footer .column-three,
+	footer .container .footer .column-four {
+		width: 100%;
+		margin-bottom: 3rem;
+        text-align: center;
+	}
+	footer .container .footer .column-four ul {
+		width: fit-content;
+		margin: 0 auto;
+	}
+}
