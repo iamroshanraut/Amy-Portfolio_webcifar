@@ -39,6 +39,7 @@ header .container{
     align-items: center;
     margin: 0 auto;
     max-width: 1000px;
+    padding: 0;
     
 }
 
@@ -163,7 +164,7 @@ header .container .right img{
 
 @media only screen and (max-width:475px){
     html{
-        font-size: 6px;
+        font-size: 0.7rem;
     }
 
     header .container{
