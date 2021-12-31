@@ -1,40 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto+Mono:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto+Mono:wght@100;200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Navigation Section Added Here  -->
+    <section id="navigation">
+      <div class="nav-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </div>
+    </section>
+    <div id="nav-content">
+      <div class="close-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </div>
+      <div class="wrapper">
+        <h2 class="section-heading">MENU</h2>
+        <nav>
+          <ul>
+            <li><a data-text="Home" href="./index.html#hero">Home</a></li>
+            <li><a data-text="About" href="./index.html#about">About</a></li>
+            <li>
+              <a data-text="Projects" href="./index.html#projects">Projects</a>
+            </li>
+            <li>
+              <a data-text="Testimonial" href="./index.html#testimonial"
+                >Testimonial</a
+              >
+            </li>
+            <li><a data-text="Contact" href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
     <!-- header starts here  -->
 
     <header>
-        <div class="container">
-            <div class="left">
-                <p class="name">I'M AMY</p>
-                <h1 class="heading">
-                    <div class="wrapper"><span>Pixels</span></div>
-                    <div class="wrapper"><span>With</span> </div>
-                    <br>
-                    <div class="wrapper"><span>purpose</span></div>
-                </h1>
-                <p class="para">I work with companies and agencies around the world, building Web sites and application UIs with strong focus on responsive design, accessibility, performance,
-                </p>
-                <div class="button">
-                    <a href="">See My Works</a>
-                    <i class="fa fa-play-circle-o"></i>
-                </div>
-            </div>
-            <div class="right">
-                <img src="img/profile.jpg" alt="">
-            </div>
+      <div class="container">
+        <div class="left">
+          <p class="name">I'M AMY</p>
+          <h1 class="heading">
+            <div class="wrapper"><span>Pixels</span></div>
+            <div class="wrapper"><span>With</span></div>
+            <br />
+            <div class="wrapper"><span>purpose</span></div>
+          </h1>
+          <p class="para">
+            I work with companies and agencies around the world, building Web
+            sites and application UIs with strong focus on responsive design,
+            accessibility, performance,
+          </p>
+          <div class="button">
+            <a href="">See My Works</a>
+            <i class="fa fa-play-circle-o"></i>
+          </div>
         </div>
+        <div class="right">
+          <img src="img/profile.jpg" alt="" />
+        </div>
+      </div>
     </header>
 
     <!-- header ends here  -->
@@ -42,32 +105,43 @@
     <!-- service section starts here  -->
 
     <section class="services">
-        <div class="container">
-                <h1>SERVICES</h1>
-            <div class="master_box">
-                <div class="box box1">
-                    <div class="cricle cricle_one">
-                        <i class="fa fa-desktop"></i>
-                    </div>
-                    <h3>Web Design</h3>
-                    <p>I build up the high performance website with blazing fast speed. Website with high performance can lead the visitor more.</p>
-                </div>
-                <div class="box box2">
-                    <div class="cricle cricle_two">
-                        <i class="fa fa-flask"></i>
-                    </div>
-                    <h3>UI/UX</h3>
-                    <p>I do ui/ux design for the website that assists website to get an outstanding look. Unique design creates an unique personality for websites.</p>
-                </div>
-                <div class="box box3">
-                    <div class="cricle cricle_three">
-                        <i class="fa fa-bar-chart"></i>
-                    </div>
-                    <h3>SEO</h3>
-                    <p>With SEO, your business wants to increase its visibility in search results on search engines. I also provide SEO services to rank your website.</p>
-                </div>
+      <div class="container">
+        <h1>SERVICES</h1>
+        <div class="master_box">
+          <div class="box box1">
+            <div class="cricle cricle_one">
+              <i class="fa fa-desktop"></i>
             </div>
+            <h3>Web Design</h3>
+            <p>
+              I build up the high performance website with blazing fast speed.
+              Website with high performance can lead the visitor more.
+            </p>
+          </div>
+          <div class="box box2">
+            <div class="cricle cricle_two">
+              <i class="fa fa-flask"></i>
+            </div>
+            <h3>UI/UX</h3>
+            <p>
+              I do ui/ux design for the website that assists website to get an
+              outstanding look. Unique design creates an unique personality for
+              websites.
+            </p>
+          </div>
+          <div class="box box3">
+            <div class="cricle cricle_three">
+              <i class="fa fa-bar-chart"></i>
+            </div>
+            <h3>SEO</h3>
+            <p>
+              With SEO, your business wants to increase its visibility in search
+              results on search engines. I also provide SEO services to rank
+              your website.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- service section ends here  -->
@@ -75,215 +149,286 @@
     <!-- Testimonial Starts here  -->
 
     <section class="testimonial">
-        <div class="container">
-            <h2>TESTIMONIAL</h2>
-            <div class="master_testi">
-                <div class="testi testione">
-                    <div class="testiimg">
-                        <img src="img/sayed.jpg" alt="">
-                    </div>
-                    <h3>MR. SAYED</h3>
-                    <p class="testides">CTO, TechG</p>
-                    <i class="fa fa-envelope"></i>
-                    <div class="icontesti"></div>
-                    <p class="paratesti">AMY conveys quality work. She is an excellent individual and an extraordinary cooperative person. She is extremely straightforward and puts all her energy to follow through on schedule.</p>
-                </div>
-                <div class="testi testitwo">
-                    <div class="testiimg">
-                        <img src="img/arfan.jpg" alt="">
-                    </div>
-                    <h3>SHAIF ARFAN</h3>
-                    <p class="testides">CTO, WEBc.</p>
-                    <i class="fa fa-envelope"></i>
-                    <div class="icontesti"></div>
-                    <p class="paratesti">I've worked with many individuals who are tendentious and driven by things other than the work they're doing. AMY is genuinely energetic about the web and the items she makes for it and that is quite darn marvelous.</p>
-                </div>
-                <div class="testi testithree">
-                    <div class="testiimg">
-                        <img src="img/ayan.jpg" alt="">
-                    </div>
-                    <h3>AYAN KHAN</h3>
-                    <p class="testides">Signer</p>
-                    <i class="fa fa-envelope"></i>
-                    <div class="icontesti"></div>
-                    <p class="paratesti">AMY is a wonderfully creative, collaborative, and gifted developer who excels at creating inclusive digital solutions.</p>
-                </div>
+      <div class="container">
+        <h2>TESTIMONIAL</h2>
+        <div class="master_testi">
+          <div class="testi testione">
+            <div class="testiimg">
+              <img src="img/sayed.jpg" alt="" />
             </div>
+            <h3>MR. SAYED</h3>
+            <p class="testides">CTO, TechG</p>
+            <i class="fa fa-envelope"></i>
+            <div class="icontesti"></div>
+            <p class="paratesti">
+              AMY conveys quality work. She is an excellent individual and an
+              extraordinary cooperative person. She is extremely straightforward
+              and puts all her energy to follow through on schedule.
+            </p>
+          </div>
+          <div class="testi testitwo">
+            <div class="testiimg">
+              <img src="img/arfan.jpg" alt="" />
+            </div>
+            <h3>SHAIF ARFAN</h3>
+            <p class="testides">CTO, WEBc.</p>
+            <i class="fa fa-envelope"></i>
+            <div class="icontesti"></div>
+            <p class="paratesti">
+              I've worked with many individuals who are tendentious and driven
+              by things other than the work they're doing. AMY is genuinely
+              energetic about the web and the items she makes for it and that is
+              quite darn marvelous.
+            </p>
+          </div>
+          <div class="testi testithree">
+            <div class="testiimg">
+              <img src="img/ayan.jpg" alt="" />
+            </div>
+            <h3>AYAN KHAN</h3>
+            <p class="testides">Signer</p>
+            <i class="fa fa-envelope"></i>
+            <div class="icontesti"></div>
+            <p class="paratesti">
+              AMY is a wonderfully creative, collaborative, and gifted developer
+              who excels at creating inclusive digital solutions.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Testimonial done here  -->
-    
-        <!-- Stats Starts Here  -->
+
+    <!-- Stats Starts Here  -->
 
     <section class="stats">
-        <div class="container">
-            <h2 class="statss">STATS</h2>
+      <div class="container">
+        <h2 class="statss">STATS</h2>
 
-            <div class="stats_items">
-                <div class="statsone statsbox">
-                    <h2>50+</h2>
-                    <h3>Project done</h3>
-                    <p>I worked on more than 50+ projects. I know how to make things fascinating and eye-catching. Making high performance website is always a sign of mine.</p>
-                </div>
-                <div class="statstwo statsbox">
-                    <h2>30+</h2>
-                    <h3>Happy clients</h3>
-                    <p>I worked with more than 30+ clients. Client satisfaction is my main priority. I generally attempt to complete the work before the deadline.</p>
-                </div>
-                <div class="statsthree statsbox">
-                    <h2>4+</h2>
-                    <h3>Year experience</h3>
-                    <p>I worked with more than 30+ clients. Client satisfaction is my main priority. I generally attempt to complete the work before the deadline.</p>
-                </div>
-            </div>
+        <div class="stats_items">
+          <div class="statsone statsbox">
+            <h2>50+</h2>
+            <h3>Project done</h3>
+            <p>
+              I worked on more than 50+ projects. I know how to make things
+              fascinating and eye-catching. Making high performance website is
+              always a sign of mine.
+            </p>
+          </div>
+          <div class="statstwo statsbox">
+            <h2>30+</h2>
+            <h3>Happy clients</h3>
+            <p>
+              I worked with more than 30+ clients. Client satisfaction is my
+              main priority. I generally attempt to complete the work before the
+              deadline.
+            </p>
+          </div>
+          <div class="statsthree statsbox">
+            <h2>4+</h2>
+            <h3>Year experience</h3>
+            <p>
+              I worked with more than 30+ clients. Client satisfaction is my
+              main priority. I generally attempt to complete the work before the
+              deadline.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- stats ends here  -->
-    
+
     <!-- About section starts here  -->
 
     <section class="about">
-        <div class="container">
-            <h2>ABOUT</h2>
-            <div class="main_card_section">
-                <div class="left_card_section">
-                    <div class="left_card">
-                        <div class="card_img">
-                            <img src="img/profile.jpg" alt="">
-                        </div>
-                        <p class="card_desc">I'm a freelance web designer and developer based in Bangladesh. I love the Web platform and I need to improve it for everybody. What's more, I believe myself to be totally honored that I will assemble it professionally.</p>
-                        <h3>AMY Jr</h3>
-                        <p class="posi">CEO pf My Com</p>
-                    </div>
-                </div>
-                <div class="right_card_section">
-                    <p class="intro">Hi! This is AMY</p>
-                    <h3>Freelance Web Designer</h3>
-                    <p class="desc">I work with companies and agencies around the world, building Web sites and application UIs with strong focus on responsive design, accessibility, performance, and the latest in the area of front-end (Javascript, react, gatsby, node, Python, djengo) I also speak and run workshops across the globe, also focusing on CSS, SVG, Responsive Design and accessibility, covering practical tips on how to build full stack using modern tools and techniques that scale and are future-proof.</p>
-                    <div class="button">
-                        <a href="" class="resume">Downlaod Resume</a>
-                        <a href="">Hire Me</a>
-                    </div>
-                </div>
+      <div class="container">
+        <h2>ABOUT</h2>
+        <div class="main_card_section">
+          <div class="left_card_section">
+            <div class="left_card">
+              <div class="card_img">
+                <img src="img/profile.jpg" alt="" />
+              </div>
+              <p class="card_desc">
+                I'm a freelance web designer and developer based in Bangladesh.
+                I love the Web platform and I need to improve it for everybody.
+                What's more, I believe myself to be totally honored that I will
+                assemble it professionally.
+              </p>
+              <h3>AMY Jr</h3>
+              <p class="posi">CEO pf My Com</p>
             </div>
+          </div>
+          <div class="right_card_section">
+            <p class="intro">Hi! This is AMY</p>
+            <h3>Freelance Web Designer</h3>
+            <p class="desc">
+              I work with companies and agencies around the world, building Web
+              sites and application UIs with strong focus on responsive design,
+              accessibility, performance, and the latest in the area of
+              front-end (Javascript, react, gatsby, node, Python, djengo) I also
+              speak and run workshops across the globe, also focusing on CSS,
+              SVG, Responsive Design and accessibility, covering practical tips
+              on how to build full stack using modern tools and techniques that
+              scale and are future-proof.
+            </p>
+            <div class="button">
+              <a href="" class="resume">Downlaod Resume</a>
+              <a href="">Hire Me</a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- About section ends here     -->
     <!-- Project Section starts here  -->
 
-        <section class="project">
-            <div class="container">
-                <h2 class="project_head">PROJECTS</h2>
-                <div class="all_section">
-                    <div class="realchat">
-                        <div class="left">
-                            <div class="img">
-                                <img src="img/project-1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="right">
-                            <h2>Real Chat</h2>
-                            <h3>Online real time chat app.</h3>
-                            <p>I made this application for a USA customer. This application is truly Amazing. Here you can chat with your friend constantly inside a secure environment and there will be no information reserved after the end of the session.</p>
-                            <div class="button">
-                                <a class="knowmoreb" href="">Know More</a>
-                                <a class="preview" href="">Preview <i class="fa fa-external-link"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="realchat zaman">
-                        <div class="left">
-                            <div class="img">
-                                <img src="img/project-3.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="right">
-                            <h2>Hotel Zaman Website</h2>
-                            <h3>A wbsite for hotel zaman.</h3>
-                            <p>Hotel zaman is one of the famous hotel in Chittagong. We created their website. The client wanted a clean and smooth design which I was able to provide at the end of the project.</p>                        
-                            <div class="button">
-                                <a class="knowmoreb" href="">Know More</a>
-                                <a class="preview" href="">Preview <i class="fa fa-external-link"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="realchat">
-                        <div class="left">
-                            <div class="img">
-                                <img src="img/project-2.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="right">
-                            <h2>Prinazz Website</h2>
-                            <h3>A website for music Studio.</h3>
-                            <p>Piranz is one of the famous music composer in UAE. The challenge was to keep the music environment in the web. It was hard but in the end we provided a good quality website that satisfied the client.</p>
-                            <div class="button">
-                                <a class="knowmoreb" href="">Know More</a>
-                                <a class="preview" href="">Preview <i class="fa fa-external-link"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-    
-                </div>
+    <section class="project">
+      <div class="container">
+        <h2 class="project_head">PROJECTS</h2>
+        <div class="all_section">
+          <div class="realchat">
+            <div class="left">
+              <div class="img">
+                <img src="img/project-1.jpg" alt="" />
+              </div>
             </div>
-        </section>
-    
-    <!-- Project Section Ends Here  --> 
-    
+            <div class="right">
+              <h2>Real Chat</h2>
+              <h3>Online real time chat app.</h3>
+              <p>
+                I made this application for a USA customer. This application is
+                truly Amazing. Here you can chat with your friend constantly
+                inside a secure environment and there will be no information
+                reserved after the end of the session.
+              </p>
+              <div class="button">
+                <a class="knowmoreb" href="">Know More</a>
+                <a class="preview" href=""
+                  >Preview <i class="fa fa-external-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="realchat zaman">
+            <div class="left">
+              <div class="img">
+                <img src="img/project-3.jpg" alt="" />
+              </div>
+            </div>
+            <div class="right">
+              <h2>Hotel Zaman Website</h2>
+              <h3>A wbsite for hotel zaman.</h3>
+              <p>
+                Hotel zaman is one of the famous hotel in Chittagong. We created
+                their website. The client wanted a clean and smooth design which
+                I was able to provide at the end of the project.
+              </p>
+              <div class="button">
+                <a class="knowmoreb" href="">Know More</a>
+                <a class="preview" href=""
+                  >Preview <i class="fa fa-external-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="realchat">
+            <div class="left">
+              <div class="img">
+                <img src="img/project-2.jpg" alt="" />
+              </div>
+            </div>
+            <div class="right">
+              <h2>Prinazz Website</h2>
+              <h3>A website for music Studio.</h3>
+              <p>
+                Piranz is one of the famous music composer in UAE. The challenge
+                was to keep the music environment in the web. It was hard but in
+                the end we provided a good quality website that satisfied the
+                client.
+              </p>
+              <div class="button">
+                <a class="knowmoreb" href="">Know More</a>
+                <a class="preview" href=""
+                  >Preview <i class="fa fa-external-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section Ends Here  -->
+
     <!-- Footer Section Ends Here  -->
 
     <footer>
-        <div class="container">
-            <div class="footer">
-                <div class="column-one column">
-                    <img src="img/light-logo.svg" alt="">
-                    <p>A freelance web designer and developer from Chittagong, Bangladesh. I generally make websites that have extraordinary designs and also have a good performance rate.</p>
-                </div>
-                <div class="column-two column">
-                    <h2>IMPORTANT <br> LINKS</h2>
-                    <ul>
-                        <li><a href="">Home</a> </li>
-                        <li><a href="">About</a> </li>
-                        <li><a href="">Contact</a> </li>
-                        <li><a href="">Projectss</a></li>
-                        <li><a href="">Testimonial</a> </li>
-                    </ul>
-                </div>
-                <div class="column-three column">
-                    <h2>CONTACT <br> INFO</h2>
-                    <li><a href=""> raseek@gmail.com</a></li>
-                    <li><a href="">+1924567890</a> </li>
-                    <li><a href="">New Delhi , India</a>  </li>
-                </div>
-                <div class="column-four column">
-                    <h2>SOCIAL <br> LINKS</h2>
-                    <ul>
-                        <li><a href="">Fb</a> </li>
-                        <li><a href="">IG</a> </li>
-                        <li><a href="">TW</a> </li>
-                        <li><a href="">LI</a> </li>
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <div class="footer">
+          <div class="column-one column">
+            <img src="img/light-logo.svg" alt="" />
+            <p>
+              A freelance web designer and developer from Chittagong,
+              Bangladesh. I generally make websites that have extraordinary
+              designs and also have a good performance rate.
+            </p>
+          </div>
+          <div class="column-two column">
+            <h2>
+              IMPORTANT <br />
+              LINKS
+            </h2>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Projectss</a></li>
+              <li><a href="">Testimonial</a></li>
+            </ul>
+          </div>
+          <div class="column-three column">
+            <h2>
+              CONTACT <br />
+              INFO
+            </h2>
+            <li><a href=""> raseek@gmail.com</a></li>
+            <li><a href="">+1924567890</a></li>
+            <li><a href="">New Delhi , India</a></li>
+          </div>
+          <div class="column-four column">
+            <h2>
+              SOCIAL <br />
+              LINKS
+            </h2>
+            <ul>
+              <li><a href="">Fb</a></li>
+              <li><a href="">IG</a></li>
+              <li><a href="">TW</a></li>
+              <li><a href="">LI</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
-
 
     <!-- Footer section ends here  -->
 
     <!-- Copyright Section starts here  -->
 
     <section class="copyright">
-        <div class="container">
-            <p>&copy; Copyright 2022 AMY. All right Reserved</p>
-        </div>
+      <div class="container">
+        <p>&copy; Copyright 2022 AMY. All right Reserved</p>
+      </div>
     </section>
-    
-    
-</body>
+
+    <!-- Copyright section end here  -->
+
+    <script src="js/app.js"></script>
+  </body>
 </html>
